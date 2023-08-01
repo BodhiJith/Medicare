@@ -46,6 +46,13 @@ const DoctorCard = ({doctor}) => {
         <h3 className='text-[16px] leading-7 lg:text[18px] lg:leading-[30px] font-semibold text-headinColor'>
             +{totalPatients} patients
         </h3>
+        <p className='text-[14px] leading-6 font-[400] text-textColor'>
+            At {hospital}
+        </p>
+        <Link to='/doctors' className='w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E]
+           flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
+            <BsArrowRight className='group-hover:text-white w-6 h-5'/>
+          </Link>
 
         </div>
     </div>
