@@ -17,6 +17,7 @@ import DoctorList from '../components/Doctors/DoctorList';
 import faqImg from '../assets/images/faq-img.png';
 import FaqList from '../components/Faq/FaqList';
 
+
 const Home = () => {
   return ( <>
   
@@ -283,7 +284,26 @@ const Home = () => {
         </div>
       </section>
       {/*========= faq section end ======== */}
+
+      {/*========= Testimonial ======== */}
+
+      <section>
+      <div className='container'>
+        <div className='xl:w-[470px] mx-auto'>
+          <h2 className='heading text-center'> What Our Patients Say </h2>
+          <p className='text__para text-center'>
+            World class care for everyone. Our health system offers unmatched,
+            expert health care.
+          </p>
+        </div>
+
+      </div>
+      </section>
+      
+      {/*========= Testimonial end ======== */}
+      
   </>
+
   )
 }
 
